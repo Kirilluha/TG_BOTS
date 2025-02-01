@@ -1,0 +1,1 @@
+docker run -d -v $(pwd)/prog.py:/app/prog.py -v $(pwd)/.env:/app/.env --restart unless-stopped --name onoffpcbot onoffpc:latest
